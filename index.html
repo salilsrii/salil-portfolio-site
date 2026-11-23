@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#11110f" />
+  <meta name="description" content="Salil Srivastav is a software engineer building backend systems, Android applications, and AI-powered tools." />
+  <title>Salil Srivastav — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Salil Srivastav home">SS<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">WORK <i>03</i></a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#about">ABOUT</a>
+      <a href="#credentials">CREDENTIALS</a>
+      <a class="nav-contact" href="#contact">LET’S TALK <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> SOFTWARE ENGINEER · AI &amp; ML</p>
+        <h1>I build software<br />that works in the<br /><em>real world.</em></h1>
+        <p class="hero-intro">Backend systems, Android apps, and AI-powered tools—designed to solve useful problems and built to work together.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">EXPLORE MY WORK <span>↓</span></a>
+          <a class="text-link" href="mailto:srivastavsalil.dev@gmail.com">GET IN TOUCH <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>BASED IN VARANASI, INDIA</span><span>OPEN TO WHAT’S NEXT <b></b></span></div>
+      </div>
+      <div class="hero-visual profile-visual">
+        <img class="profile-photo" src="./salil-cutout.png" alt="Salil Srivastav wearing a dark quilted jacket, looking to the side" fetchpriority="high" />
+        <div class="visual-top"><span>SOFTWARE ENGINEER · AI &amp; ML</span><span>PROFILE 01</span></div>
+        <div class="visual-bottom"><span class="profile-name">SALIL SRIVASTAV<small>BUILDING SOFTWARE FOR THE REAL WORLD</small></span><span>VARANASI, INDIA <b>↗</b></span></div>
+      </div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <div class="ticker" aria-label="Areas of focus"><div class="ticker-track"><span>BACKEND ENGINEERING <b>✳</b></span><span>ANDROID DEVELOPMENT <b>✳</b></span><span>DISTRIBUTED SYSTEMS <b>✳</b></span><span>APPLIED AI <b>✳</b></span><span>BACKEND ENGINEERING <b>✳</b></span><span>ANDROID DEVELOPMENT <b>✳</b></span><span>DISTRIBUTED SYSTEMS <b>✳</b></span><span>APPLIED AI <b>✳</b></span></div></div>
+
+    <section class="work section" id="work">
+      <div class="section-head"><div><p class="eyebrow">01 — SELECTED WORK</p><h2>Ideas, made<br /><em>operational.</em></h2></div><p class="section-note">Four projects. Four different problems. Each one taught me how to make a system more useful, resilient, and clear.</p></div>
+      <div class="project-list">
+        <article class="project project-featured">
+          <div class="project-art retina-art"><img class="project-image" src="./images/retinagrade.jpg" alt="Abstract retinal scan visualization with branching vessels" loading="lazy" /><div class="art-shade"></div><div class="art-label">01 / COMPUTER VISION</div><div class="art-index">01</div></div>
+          <div class="project-info"><div class="project-kicker"><span>COMPUTER VISION · DEEP LEARNING</span><span>FIVE-CLASS MODEL</span></div><h3>SA-EffNetB3 — Retinal Grading Model</h3><p>A five-class diabetic-retinopathy classifier built on an ImageNet-pretrained EfficientNetB3 backbone. A custom spatial-attention block learns where to focus before the model assigns a severity grade.</p><p>The Streamlit demo shows the model’s grade output and score distribution for a fundus image.</p><p class="project-disclaimer">Research and education only—not a diagnosis. The hosted app processes uploads on its server; do not upload real patient images or identifiers.</p><div class="project-footer"><div class="tags"><span>EFFICIENTNETB3</span><span>SPATIAL ATTENTION</span><span>TENSORFLOW</span><span>MESSIDOR-2</span></div><div class="project-actions"><a class="repo-link" href="https://github.com/salilsrii/retinagrade-app" target="_blank" rel="noreferrer">MODEL &amp; INFERENCE REPO <b>↗</b></a><a class="repo-link" href="https://retinagrade-sa-effnetb3.streamlit.app/" target="_blank" rel="noreferrer">VIEW MODEL DEMO <b>↗</b></a></div></div></div>
+        </article>
+        <article class="project">
+          <div class="project-art scheduler"><img class="project-image" src="./images/distributed-job-scheduler.png" alt="Glowing task queue connecting an API, worker nodes, and a database" loading="lazy" /><div class="art-shade"></div><div class="art-label">02 / DISTRIBUTED SYSTEMS</div><div class="art-index">02</div></div>
+          <div class="project-info"><div class="project-kicker"><span>PLATFORM ENGINEERING</span><span>JUL — SEP 2026</span></div><h3>Distributed Job Scheduler</h3><p>A platform for asynchronous task queues, worker execution tracking, and retries. A layered FastAPI and PostgreSQL backend pairs with a React/Vite interface for live job monitoring.</p><div class="project-footer"><div class="tags"><span>FASTAPI</span><span>POSTGRESQL</span><span>SQLALCHEMY</span><span>REACT</span></div><a class="repo-link" href="https://github.com/salilsrii/distributed-job-scheduler" target="_blank" rel="noreferrer">VIEW REPOSITORY <b>↗</b></a></div></div>
+        </article>
+        <article class="project">
+          <div class="project-art agents"><img class="project-image" src="./images/multi-agent-intelligence.png" alt="Four AI specialist signals connected to a central orchestration core" loading="lazy" /><div class="art-shade"></div><div class="art-label">03 / MULTI-AGENT AI</div><div class="art-index">03</div></div>
+          <div class="project-info"><div class="project-kicker"><span>AI SYSTEMS</span><span>DEC 2025 — APR 2026</span></div><h3>Multi-Agent Competitive Intelligence</h3><p>Specialized agents collect information, analyze language, and transcribe audio in concurrent FastAPI pipelines.</p><div class="impact"><div><strong>~60%</strong><span>LESS MANUAL RESEARCH</span></div><div><strong>~35%</strong><span>LOWER PIPELINE LATENCY</span></div></div><div class="project-footer"><div class="tags"><span>PYTHON</span><span>ASYNCIO</span><span>CLAUDE API</span><span>AWS · AZURE</span></div><a class="repo-link" href="https://github.com/salilsrii/Multi-agent-Competitive-Intelligence" target="_blank" rel="noreferrer">VIEW REPOSITORY <b>↗</b></a></div></div>
+        </article>
+        <article class="project">
+          <div class="project-art agro"><img class="project-image" src="./images/agrotrack.png" alt="Aerial crop fields with a satellite data overlay highlighting a recommendation zone" loading="lazy" /><div class="art-shade"></div><div class="art-label">04 / APPLIED MACHINE LEARNING</div><div class="art-index">04</div></div>
+          <div class="project-info"><div class="project-kicker"><span>APPLIED ML</span><span>FEB — MAY 2025</span></div><h3>AgroTrack — Crop Recommendation</h3><p>An end-to-end crop recommendation pipeline covering data preparation, model evaluation, and Google Cloud deployment.</p><div class="impact"><div><strong>~88%</strong><span>PREDICTION ACCURACY</span></div><div><strong>~40%</strong><span>FEWER DATA ERRORS</span></div></div><div class="project-footer"><div class="tags"><span>TENSORFLOW</span><span>PYTORCH</span><span>SCIKIT-LEARN</span><span>GCP</span></div><span class="repo-note">MORE ON <a href="https://github.com/salilsrii?tab=repositories" target="_blank" rel="noreferrer">GITHUB ↗</a></span></div></div>
+        </article>
+      </div>
+      <div class="all-repos"><span>MORE EXPERIMENTS, CODE &amp; OPEN SOURCE</span><a href="https://github.com/salilsrii?tab=repositories" target="_blank" rel="noreferrer">EXPLORE ALL REPOSITORIES <b>↗</b></a></div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="experience-head"><p class="eyebrow">02 — EXPERIENCE</p><a class="mono company-site" href="https://www.gridee.in/" target="_blank" rel="noreferrer">VISIT GRIDEE ↗</a></div>
+      <div class="experience-main"><div class="company-mark">G<span>↗</span></div><div><p class="experience-date">JUL 2026 — PRESENT <span>·</span> GRIDEE</p><h2>Software Development<br /><em>Engineer</em></h2><p class="experience-desc">GRIDEE connects a parking app and cloud platform with QR access, ANPR vehicle recognition, payments, and live operations. I’m building across that flow: Kotlin Android experiences for discovery, booking, wallet, and parking sessions; Spring Boot services for bookings, payments, and occupancy; and ANPR-based vehicle access validation.</p><div class="tags"><span>KOTLIN</span><span>ANDROID</span><span>SPRING BOOT</span><span>POSTGRESQL</span><span>REST APIs</span><span>ANPR · QR</span></div></div></div>
+      <div class="parking-flow"><div class="flow-heading"><span class="eyebrow">THE PRODUCT FLOW</span><span class="mono">APP → PLATFORM → ACCESS</span></div><div class="flow-steps"><div><span>01</span><strong>DISCOVER</strong><small>Live parking availability</small></div><b>→</b><div><span>02</span><strong>BOOK &amp; PAY</strong><small>Booking · QR · wallet</small></div><b>→</b><div><span>03</span><strong>VALIDATE</strong><small>QR · ANPR · access rules</small></div><b>→</b><div><span>04</span><strong>PARK</strong><small>Session · occupancy sync</small></div></div></div>
+      <div class="experience-foot"><span>PRODUCT ENGINEERING</span><span>FROM MOBILE EXPERIENCE TO BACKEND SERVICES</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-head about-head"><div><p class="eyebrow">03 — A LITTLE CONTEXT</p><h2>Curious by nature.<br /><em>Practical by design.</em></h2></div><p class="section-note">I’m Salil, a Computer Science and Engineering student at SRMIST specializing in AI &amp; ML. I like moving between the product surface and the systems underneath it—understanding the problem, designing a useful approach, and building the parts that make it work.</p></div>
+      <div class="about-grid"><div class="about-block"><span class="about-num">01</span><p class="eyebrow">WHAT I WORK ON</p><h3>Software from<br />edge to cloud.</h3><p>Android apps, backend services, APIs, distributed workflows, and AI systems.</p></div><div class="about-block"><span class="about-num">02</span><p class="eyebrow">HOW I THINK</p><h3>Understand first.<br />Build with intent.</h3><p>Start with the user and the constraints. Keep the architecture clear. Make the result measurable.</p></div><div class="about-block"><span class="about-num">03</span><p class="eyebrow">BEYOND CODE</p><h3>Lead teams.<br />Make things happen.</h3><p>As AARUUSH committee head, I helped lead 300 people across an event serving around 5,000 participants.</p></div></div>
+      <div class="skills-strip"><div><p class="eyebrow">THE TOOLKIT</p><p>Python · Java · Kotlin · C++ · FastAPI · Spring Boot · PostgreSQL · TensorFlow · PyTorch · AWS · GCP · Azure · Docker · React</p></div><a href="./Salil-Srivastav-Resume.pdf" target="_blank" rel="noopener">OPEN RESUME <b>↗</b></a></div>
+    </section>
+
+    <section class="credentials section" id="credentials">
+      <div class="section-head"><div><p class="eyebrow">04 — CREDENTIALS &amp; LEARNING</p><h2>Proof of<br /><em>curiosity.</em></h2></div><p class="section-note">Selected course certificates and participation credentials. Open any item to view the original document.</p></div>
+      <div class="wheel-controls"><p class="wheel-hint">DRAG TO ROTATE <span>·</span> SELECT A CERTIFICATE TO OPEN</p><div class="wheel-buttons"><button type="button" data-wheel-prev aria-label="Previous certificate">←</button><button type="button" data-wheel-toggle aria-pressed="false">PAUSE ROTATION</button><button type="button" data-wheel-next aria-label="Next certificate">→</button></div></div>
+      <div class="wheel-stage" data-wheel-stage aria-label="Rotating certificates. Drag or use arrow keys to browse." tabindex="0">
+        <svg class="wheel-spokes" viewBox="0 0 600 600" aria-hidden="true"><circle class="wheel-rim" cx="300" cy="300" r="196"/><g class="wheel-spoke-group"><path d="M300 300V104M300 300L470 202M300 300L470 398M300 300V496M300 300L130 398M300 300L130 202"/></g><circle class="wheel-hub" cx="300" cy="300" r="35"/><circle class="wheel-hub-core" cx="300" cy="300" r="8"/></svg>
+        <a class="credential-card wheel-card" href="./certificates/meta-database-structures-management-mysql.png" target="_blank" rel="noopener"><div class="credential-meta"><span>COURSE CERTIFICATE</span><span>MAR 2025</span></div><h3>Database Structures and Management with MySQL</h3><p>Meta · Coursera</p><span class="wheel-open">VIEW CERTIFICATE <b>↗</b></span></a>
+        <a class="credential-card wheel-card" href="./certificates/nptel-introduction-to-machine-learning.pdf" target="_blank" rel="noopener"><div class="credential-meta"><span>ELITE COURSE CERTIFICATE</span><span>JUL–SEP 2025</span></div><h3>Introduction to Machine Learning</h3><p>NPTEL · IIT Kharagpur · 8-week course</p><span class="wheel-open">VIEW CERTIFICATE <b>↗</b></span></a>
+        <a class="credential-card wheel-card" href="./certificates/cisco-networking-basics.pdf" target="_blank" rel="noopener"><div class="credential-meta"><span>COURSE COMPLETION</span><span>OCT 2025</span></div><h3>Networking Basics</h3><p>Cisco Networking Academy</p><span class="wheel-open">VIEW CERTIFICATE <b>↗</b></span></a>
+        <a class="credential-card wheel-card" href="./certificates/udemy-complete-python-course.pdf" target="_blank" rel="noopener"><div class="credential-meta"><span>COURSE COMPLETION</span><span>NOV 2023</span></div><h3>The Complete Python Course</h3><p>Learn Python by Doing in 2023 · Udemy</p><span class="wheel-open">VIEW CERTIFICATE <b>↗</b></span></a>
+        <a class="credential-card wheel-card" href="./certificates/red-hat-openshift-development-i-attendance.pdf" target="_blank" rel="noopener"><div class="credential-meta"><span>COURSE ATTENDANCE</span><span>SEP 2025</span></div><h3>OpenShift Development I: Introduction to Containers with Podman</h3><p>Red Hat · DO188 RHA · 40 credit hours</p><span class="wheel-open">VIEW CERTIFICATE <b>↗</b></span></a>
+        <a class="credential-card wheel-card" href="./certificates/adobe-university-hackathon-participation.pdf" target="_blank" rel="noopener"><div class="credential-meta"><span>HACKATHON PARTICIPATION</span><span>AUG 2026</span></div><h3>Adobe University Hackathon</h3><p>Adobe · University Hackathon</p><span class="wheel-open">VIEW CERTIFICATE <b>↗</b></span></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact"><div class="contact-top"><p class="eyebrow">05 — CONTACT</p><span class="mono">VARANASI, INDIA · IST</span></div><h2>Let’s build<br /><em>something useful.</em></h2><p class="contact-copy">I’m open to conversations about software engineering, AI, and interesting problems worth solving.</p><a class="contact-email" href="mailto:srivastavsalil.dev@gmail.com">SRIVASTAVSALIL.DEV@GMAIL.COM <span>↗</span></a><div class="contact-links"><a href="tel:+916306973788">+91 63069 73788</a><a href="https://linkedin.com/in/salil-sri" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/salilsrii" target="_blank" rel="noreferrer">GITHUB ↗</a></div><div class="contact-bottom"><span>SALIL SRIVASTAV © <span data-year></span></span><a href="#top">BACK TO TOP ↑</a><span>BUILT WITH CURIOSITY</span></div></section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
